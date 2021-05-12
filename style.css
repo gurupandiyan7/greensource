@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after,  
+q::before,
+q::after {
+    content: none;
+}
+
+:focus {
+    outline: 0;
+}
+
+ins,
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img{
+    max-width: 100%;
+}
+h1,
+h2,
+h3 {
+    font-weight: normal;
+    color: #333;
+}
+
+p {
+    margin: 0;
+    color: #333333;
+}
+
+.clearfix {
+    clear: both;
+    width: 100%;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.mt10 {
+    margin-top: 10px !important;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+.mt30 {
+    margin-top: 30px !important;
+}
+
+.mb10 {
+    margin-bottom: 10px !important;
+}
+.mb15 {
+    margin-bottom: 15px !important;
+}
+.mb20 {
+    margin-bottom: 20px !important;
+}
+.mb30 {
+    margin-bottom: 30px !important;
+}
+
+.dis-inbl {
+    display: inline-block !important;
+}
+
+.dis-block {
+    display: block !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ins,
+a {
+    text-decoration: none;
+}
+
+.footer-wrapper {
+    display: none !important;
+}
+
+video {
+    width: 100%;
+}
+/*section{
+    overflow: hidden;
+}*/
+ins,
+a {
+    text-decoration: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+    color: #111;
+    font-weight: normal;
+}
+section{
+    position: relative;
+}
+header{
+    border:1px solid #ccc;
+}
+header .wrap{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin: 0 auto;
+}
+header .wrap .left,header .wrap .right p{
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+}
+header .wrap .right{
+    display: flex;
+    justify-content: space-between;
+}
+header .wrap .right .sign{
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+    padding: 50px 0;
+} 
+.first .wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.first .wrapper .left,.first .wrapper .right{
+    width: 50%;
+} 
+.first .wrapper .left img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/**/
